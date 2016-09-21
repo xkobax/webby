@@ -1,6 +1,6 @@
 
 .DS_Store
-#.gitignore
+.gitignore
 .idea/
 out/
 src/.DS_Storeå
