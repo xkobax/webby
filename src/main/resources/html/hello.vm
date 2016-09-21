@@ -1,0 +1,10 @@
+#parse("/html/layout.vm")
+#@mainLayout()
+<h4>All users</h4>
+
+#foreach( $user in $users )
+<div class="row row-4"><div class="col">$user.getName()</div><div class="col">$user.getAge()</div>
+                       <div class="col">$user.getSalary()</div><div class="col">$user.getPosition()</div></div>
+#end
+
+#end
