@@ -20,7 +20,6 @@ public class UserDAO {
     }
 
     public List<User> getAll() {
-
         Session session = createSessionFactory().openSession();
         session.beginTransaction();
         List<User> result = (List<User>) session.createQuery("from USERS").list();
