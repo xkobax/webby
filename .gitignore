@@ -1,0 +1,14 @@
+
+.DS_Store
+#.gitignore
+.idea/
+out/
+src/.DS_Storeå
+src/main/.DS_Store
+src/main/resources/.DS_Store
+src/main/resources/public/.DS_Store
+src/test/
+target/
+web/.DS_Storea
+web/WEB-INF/.DS_Store
+webby.iml
